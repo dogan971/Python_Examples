@@ -1,7 +1,3 @@
-from matplotlib.pyplot import show
-from sqlalchemy import null
-
-
 def faktoriyel(sayi):
     faktoriyel = 1
     if(sayi == 0 or sayi == 1):
