@@ -21,7 +21,7 @@ class Kumanda():
             self.tv_durum = "Kapalı"
     def ses_ayarları(self):
         while True:
-            cevap = input("+/-/Çıkış")
+            cevap = input("+/-/q: ")
             if(cevap == "-"):
                 if(self.tv_ses != 0):
                   self.tv_ses -= 1
