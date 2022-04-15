@@ -8,3 +8,6 @@ while True:
         sayi = int(sayi)
         toplam += sayi
         print(toplam)
+
+
+ 
