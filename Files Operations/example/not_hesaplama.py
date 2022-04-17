@@ -1,4 +1,4 @@
-def not_hesapla(satır):
+def not_hesapla(satır): 
     satır = satır[:-1]
     liste = satır.split(",")
     isim = liste[0]
@@ -24,14 +24,24 @@ def not_hesapla(satır):
         harf = "FD"
     else:
         harf = "FF"
-    
+
     return f"{isim} ----> {harf}\n"
 
+
+
+ 
 
 with open("dosya.txt","r+",encoding="utf-8") as file:
     eklenecekler_listesi = []
     for i in file.readlines():
             eklenecekler_listesi.append(not_hesapla(i))
-    with open("notlar.txt","w",encoding="utf-8") as file2:
+    with open("notlar.txt","w+",encoding="utf-8") as file2:
         for x in eklenecekler_listesi:
             file2.write(x)
+        
+        
+        
+        
+
+        
+    
