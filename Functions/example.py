@@ -16,4 +16,4 @@ print(reduce(lambda x,y:x+y,filter))
 names = ["Kerim","Tarık","Ezgi","Kemal","İlkay","Şükran","Merve"]
 lastNames = ["Yılmaz","Öztürk","Dağdeviren","Atatürk","Dikmen","Kaya","Polat"]
 for i,j in zip(names,lastNames):
-    print(i,j)cd
+    print(i,j)
