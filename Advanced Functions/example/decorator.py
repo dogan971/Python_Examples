@@ -1,4 +1,3 @@
-
 def yeni_ozellik(func):
     def wrapper(sayilar):
         ciftler_toplamı = 0
