@@ -1,3 +1,4 @@
+
 from email.mime.multipart import MIMEMultipart # mail yapısını oluşturucak
 from email.mime.text import MIMEText # mail deki text
 import smtplib #smtp serverına bağlanmak için
@@ -11,7 +12,6 @@ mesaj["Subject"] = "Smtp Mail Gönderme"
 yazi = """
 Smtp ile mail gönderimi
 Latif Doğan Topluoğlu
-
 Merhaba Hocam
 """
 
